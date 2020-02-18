@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" >
+    <title>Daily Expense App</title>
+</head>
+<body>
+<div class="box">
+    <h2>Expense Tracker</h2>
+<div class="balance-sheet">
+    <h2>Balance:</h2>
+    <p id="balanceId">#00.00</p>
+</div>
+        <div class="container">
+            <div class="inc-side">
+                <h4>Income</h4>
+                <p id="money-plus">#00.00</p>
+            </div>
+            <div class="exp-side">
+                <h4>Expense</h4>
+                <p id="money-minus">#00.00</p>
+            </div>
+        </div>
+<div>
+    <h3>History</h3>
+    <hr>
+    <ul id="list"></ul>
+
+</div>
+        <h3>Add new transaction</h3>
+    <hr>
+        <form id="form">
+            <label>Text</label>
+            <input id="text-input" class="input" placeholder="Enter your text" required type="text">
+
+            <label>Amount</label>
+            <input id="amount-input" class="input" value="counter" placeholder="Enter your amount" required type="number">
+            <button id="button">Enter transaction</button>
+        </form>
+    </div>
+<script src="./main.js" ></script>
+</body>
+</html>
+
+
+
+

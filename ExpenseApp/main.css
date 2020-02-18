@@ -1,0 +1,74 @@
+body{
+    background-color: #2980b9;
+    font-family: sans-serif;
+}
+.box {
+    padding-top: 1px;
+    width: 400px;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 20px 40px rgb(0, 0, 0);
+    margin: 8% auto;
+    background-color: #ecf0f1;
+}
+.balance-sheet {
+    font-family: sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+#balanceId {
+    padding: 10px;
+}
+h2 {
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+h3 {
+    text-align: left;
+    padding-left: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+    border: 1px solid #95a5a6;
+}
+.inc-side h4{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.exp-side h4{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.inc-side {
+    border-right: 1px solid #95a5a6;
+}
+button {
+    color: white;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    background-color: #2980b9;
+    margin-top: 15px;
+}
+input {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    background-color: #ecf0f1;
+    border-bottom: 2px solid #2980b9;
+}
+hr{
+    border-top: 0.001rem solid #2980b9;
+    width: 90%;
+}
+
